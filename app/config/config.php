@@ -21,3 +21,8 @@ define('URLROOT', 'http://localhost/carmoto');
  * Site Name
  */
 define('SITENAME', 'carmoto');
+
+/**
+ * App Version
+ */
+define('APPVERSION', '1.0.0');
