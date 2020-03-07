@@ -10,7 +10,9 @@ class Pages extends Controller
 
     public function index()
     {
-
+        if (isLoggedIn()){
+            redirect('posts');
+        }
         $data = ['title' => 'Brad Traversy MVC framework',
             'description'=> 'Simple social network built on the Traversy MVC PHP framework'
             ];
